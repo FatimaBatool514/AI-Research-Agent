@@ -1,0 +1,4 @@
+# Use Python 3.12 (CrewAI supports 3.10 - 3.13, NOT 3.14 yet)
+streamlit>=1.50,<2
+crewai[litellm]==1.15.22   # [litellm] extra is REQUIRED for Groq
+ddgs>=9.16,<10             # DuckDuckGo search (new name of duckduckgo-search)
